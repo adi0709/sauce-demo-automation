@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0"
-	failed="1" skipped="0">
-	<reporter-output>
-	</reporter-output>
-	<suite started-at="2021-03-15T14:14:40 IST" name="Default suite"
-		finished-at="2021-03-15T14:14:55 IST" duration-ms="14404">
-		<groups>
-		</groups>
-		<test started-at="2021-03-15T14:14:40 IST" name="Default test"
-			finished-at="2021-03-15T14:14:55 IST" duration-ms="14404">
-			<class name="Automation_login">
-				<test-method
-					signature="test01_Validate_login()[pri:0, instance:Automation_login@3f56875e]"
-					started-at="2021-03-15T14:14:40 IST" name="test01_Validate_login"
-					finished-at="2021-03-15T14:14:55 IST" duration-ms="14377"
-					status="FAIL">
-					<exception
-						class="org.openqa.selenium.NoSuchWindowException">
-						<message>
-              <![CDATA[no such window: window was already closed
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-15T15:22:00 IST" name="Default suite" finished-at="2021-03-15T15:22:15 IST" duration-ms="15009">
+    <groups>
+    </groups>
+    <test started-at="2021-03-15T15:22:00 IST" name="Default test" finished-at="2021-03-15T15:22:15 IST" duration-ms="15009">
+      <class name="Automation_login">
+        <test-method signature="test01_Validate_login()[pri:0, instance:Automation_login@3f56875e]" started-at="2021-03-15T15:22:00 IST" name="test01_Validate_login" finished-at="2021-03-15T15:22:15 IST" duration-ms="14985" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
   (Session info: chrome=89.0.4389.90)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'VSs-MacBook-Pro.local', ip: 'fe80:0:0:0:447:ba68:f606:37be%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/yl/xt3_s8z17lb...}, goog:chromeOptions: {debuggerAddress: localhost:57204}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e0ddcfb3130801c35622943938cb8c6
-*** Element info: {Using=id, value=first-name}]]>
-						</message>
-						<full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/yl/xt3_s8z17lb...}, goog:chromeOptions: {debuggerAddress: localhost:57989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33f17fd028c260227c8a5714fb5a2637
+*** Element info: {Using=class name, value=cart_button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=89.0.4389.90)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'VSs-MacBook-Pro.local', ip: 'fe80:0:0:0:447:ba68:f606:37be%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/yl/xt3_s8z17lb...}, goog:chromeOptions: {debuggerAddress: localhost:57204}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4e0ddcfb3130801c35622943938cb8c6
-*** Element info: {Using=id, value=first-name}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/yl/xt3_s8z17lb...}, goog:chromeOptions: {debuggerAddress: localhost:57989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33f17fd028c260227c8a5714fb5a2637
+*** Element info: {Using=class name, value=cart_button}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -48,10 +40,10 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at Automation_login.test01_Validate_login(Automation_login.java:102)
+at Automation_login.test01_Validate_login(Automation_login.java:125)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -81,12 +73,12 @@ at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
-						</full-stacktrace>
-					</exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- test01_Validate_login -->
-			</class> <!-- Automation_login -->
-		</test> <!-- Default test -->
-	</suite> <!-- Default suite -->
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_Validate_login -->
+      </class> <!-- Automation_login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
