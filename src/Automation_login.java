@@ -14,7 +14,7 @@ public class Automation_login {
 	@Test
 	public void test01_Validate_login() {
 	
-	System.setProperty("webdriver.chrome.driver", "/Users/apanwar/Downloads/Selenium/Automation/Login-Automation/chromedriver");	
+	System.setProperty("webdriver.chrome.driver", "/Users/apanwar/Downloads/Selenium/Automation/Login-Automation/chromedriver");	//provide the location of the web driver
 		
 	//Open Browser
 	
